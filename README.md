@@ -13,3 +13,7 @@ Instructions and various examples for the deep learning, caffe style...
 ```
 brew update
 ```
+* install openblas
+```
+brew install homebrew/science/openblas
+```
