@@ -11,5 +11,5 @@ Instructions and various examples for the deep learning, caffe style...
 * install brew for MACOS
 * make sure to update your brew installation
 ```
-brew udpate
+brew update
 ```
