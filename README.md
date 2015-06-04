@@ -32,6 +32,18 @@ brew install --fresh -vd snappy leveldb gflags glog szip lmdb
 brew tap homebrew/science
 brew install hdf5 opencv
 ```
+* install all the anaconda dependencies
+```
+cd python
+for req in $(cat requirements.txt); do conda install $req; done
+```
+
+* install protobuf
+```
+```
+* if it fails, try the following: 
+* * edit protobuf to download an available dateutil library
+
 
 ## Compile
 
@@ -40,4 +52,5 @@ brew install hdf5 opencv
 cp Makefile.config.example Makefile.config
 ```
 * edit makefile to build from Anaconda python
+* make all
 
