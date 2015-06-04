@@ -62,6 +62,11 @@ cp Makefile.config.example Makefile.config
 ```
 make all
 ```
+* make the tests and run them
+```
+make test
+make runtest
+```
 
 ## Test Python bindings
 
