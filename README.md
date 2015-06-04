@@ -29,4 +29,6 @@ https://developer.nvidia.com/cuda-downloads
 * install some post cuda dependencies
 ```
 brew install --fresh -vd snappy leveldb gflags glog szip lmdb
+brew tap homebrew/science
+brew install hdf5 opencv
 ```
