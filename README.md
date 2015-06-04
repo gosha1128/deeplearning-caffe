@@ -17,7 +17,14 @@ brew update
 ```
 brew install homebrew/science/openblas
 ```
+* install anaconda python
 * install nvidia toolkit
 ```
 https://developer.nvidia.com/cuda-downloads
 ```
+* set env var
+```
+/usr/local/cuda/lib:$HOME/anaconda/lib:/usr/local/lib:/usr/lib
+```
+* install some post cuda dependencies
+brew install --fresh -vd snappy leveldb gflags glog szip lmdb
