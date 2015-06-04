@@ -58,6 +58,7 @@ brew install --build-from-source --fresh -vd boost boost-python
 cp Makefile.config.example Makefile.config
 ```
 * edit makefile to build from Anaconda python
+* edit makefile to force CPU builds only ( no GPU support )
 * make
 ```
 make all
