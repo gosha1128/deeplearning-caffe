@@ -17,3 +17,7 @@ brew update
 ```
 brew install homebrew/science/openblas
 ```
+* install nvidia toolkit
+```
+https://developer.nvidia.com/cuda-downloads
+```
