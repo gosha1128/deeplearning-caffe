@@ -32,3 +32,12 @@ brew install --fresh -vd snappy leveldb gflags glog szip lmdb
 brew tap homebrew/science
 brew install hdf5 opencv
 ```
+
+## Compile
+
+* setup makefile
+```
+cp Makefile.config.example Makefile.config
+```
+* edit makefile to build from Anaconda python
+
