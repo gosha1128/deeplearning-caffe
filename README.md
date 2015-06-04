@@ -17,7 +17,7 @@ brew update
 ```
 brew install homebrew/science/openblas
 ```
-* install anaconda python
+* install anaconda python ( set it to be the default python )
 * install nvidia toolkit
 ```
 https://developer.nvidia.com/cuda-downloads
@@ -37,12 +37,18 @@ brew install hdf5 opencv
 cd python
 for req in $(cat requirements.txt); do conda install $req; done
 ```
-
-* install protobuf
+* set env var
 ```
+export DYLD_FALLBACK_LIBRARY_PATH=/usr/local/cuda/lib:$HOME/anaconda/lib:/usr/local/lib:/usr/lib
 ```
-* if it fails, try the following: 
-* * edit protobuf to download an available dateutil library
+* protobuf dependency
+```
+brew install --build-from-source --with-python --fresh -vd protobuf
+```
+* boost dependency
+```
+brew install --build-from-source --fresh -vd boost boost-python
+```
 
 
 ## Compile
