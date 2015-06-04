@@ -68,8 +68,8 @@ make test
 make runtest
 ```
 * if the tests fail, try the following
-** (libpng) I had to use brew to update libpng to a compatible version
-** (libImath) I had to use brew to install opencv 
+  * (libpng) I had to use brew to update libpng to a compatible version
+  * (libImath) I had to use brew to install opencv 
 
 ## Test Python bindings
 
