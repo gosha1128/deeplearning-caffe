@@ -1,6 +1,6 @@
 # deeplearning-caffe
 
-Instructions and various examples for the deep learning, caffe style...
+Instructions and various examples for the deep learning, caffe style.  These instructions will install the python and matlab bindings.  Example networks are provided.
 
 [ This is a work in progress so bear with me...]
 
@@ -51,7 +51,7 @@ brew install --build-from-source --fresh -vd boost boost-python
 ```
 
 
-## Compile
+## Compile 
 
 * setup makefile
 ```
@@ -62,4 +62,11 @@ cp Makefile.config.example Makefile.config
 ```
 make all
 ```
+
+## Test Python bindings
+
+## Configure For Matlab
+
+## Test Matlab bindings
+
 
