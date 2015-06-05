@@ -82,6 +82,16 @@ make runtest
 
 ## Configure For Matlab
 
+* make matlab bindings
+```
+make matcaffe
+```
+* if it fails, try the following
+  * you may need to edit the clas.h file and remove MACOS compiler warnings for certain prototypes
+  * you may need to edit the Makefile.config as follows:
+ ```
+LIBRARY_DIRS := $(PYTHON_LIB) /usr/local/lib $(MATLAB_DIR)/bin/maci64 /usr/lib
+```
 ## Test Matlab bindings
 
 
