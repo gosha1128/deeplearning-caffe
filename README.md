@@ -74,6 +74,12 @@ make runtest
 
 ## Test Python bindings
 
+* use ipython and test out some of the samples, from the caffe directory
+```
+~/anaconda/bin/ipython notebook examples/
+<click on classification.ipynb and run the python sections>
+```
+
 ## Configure For Matlab
 
 ## Test Matlab bindings
